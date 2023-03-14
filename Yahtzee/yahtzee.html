@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="yahtzee.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" href="photoForYahtzee/logo.png" type="image/x-icon">
+    <title>Yahtzee</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+<body>
+<!-- <center><button id="fadeIn">Click me to open yahtzee</button></center> -->
+    <!-- <img src="photoForYahtzee/home.png"> -->
+    <a href="/Home page/home.html">
+    <span class="material-symbols-outlined" id = "homeB">
+        home
+        </span>
+        <a>
+            <span class="material-symbols-outlined" onclick="location.reload()" id = "reS">
+                refresh
+            </span>
+
+    <div id = "wholeContainer">
+        <div class = "forPlayingArea">
+       <!-- For player 2 -->
+        
+          <h1>PLAYER 2</h1>
+          <img src="photoForYahtzee/1.png" id="pl2One">
+          <img src="photoForYahtzee/2.png" id="pl2Two">
+          <img src="photoForYahtzee/3.png" id="pl2Three">
+          <img src="photoForYahtzee/4.png" id="pl2Four">
+          <img src="photoForYahtzee/5.png" id="pl2Five">
+
+         <br>
+            <button class="rollDice1" id="dicePl2">ROLL DICE</button>
+
+        <!-- For player 1  -->
+
+        <h1 id="pl2">PLAYER 1</h1>
+
+        <button class="rollDice2" id="dicePl1" onclick="rollDicePl1()">ROLL DICE</button>
+
+          <img src="photoForYahtzee/1.png"  id="pl1One">
+          <img src="photoForYahtzee/2.png" id="pl1Two">
+          <img src="photoForYahtzee/3.png" id="pl1Three">
+          <img src="photoForYahtzee/4.png" id="pl1Four">
+          <img src="photoForYahtzee/5.png" id="pl1Five">
+
+        </div>
+
+
+        <div class = "forOutput" id="output"></div>
+    </div>
+    <div id = "turn">
+        <span class="material-symbols-outlined" id="text">
+            arrow_forward
+            </span>
+    </div>
+    <script src="yahtzeeNoif.js"></script>
+</body>
+</html>

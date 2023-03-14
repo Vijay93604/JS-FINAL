@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
+html,body{
+    width:100%;
+    height:100%;
+    user-select: none;
+    margin:0;
+    font-family: 'Gugi', cursive;
+    transition-duration: 2s;
+    background-image: url("photos/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+
+
+    /* background-color: aliceblue; */
+}
+h1{
+    text-align:center;
+    font-size:60px
+}
+p{
+    text-align:center;
+    font-size:60px;
+    color:white
+}
+#root{
+    width:970px;
+    height:825px;
+    border:solid black 1px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:50px;
+    display:flex;
+    flex-wrap: wrap;
+    background-color:#2164c2;
+    border: black solid 5px;
+}
+
+.small-boxes{
+    background-color: white;
+    margin-left:7.2px;
+    margin-top:5px;
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    border:  solid 5px;
+    transition-duration: .3s;
+}
+
+a{
+    text-decoration: none;
+}
+
+.red-turn{
+    background-color: red;
+}
+
+.blue-turn{
+    background-color: blue;
+}
+.for-hover{
+    width:120px;
+    height:120px;
+    border-radius: 50%;
+    display:flex;
+    border:solid black 1px;
+    border:  solid 5px;
+    visibility: hidden;
+
+}
+#hov{
+    width:970px;
+    height:140px;
+    display:flex;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 50px;
+}
+#homeB{
+    position: absolute;
+    font-size: 80px;
+    color:black;
+    left:30px;
+    top:10px;
+}
+#reS{
+    font-size: 80px;
+    position: absolute;
+    top: 20px;
+    left:90%;
+    cursor: pointer;
+}
+#turn{
+    width:200px;
+    height:80px;
+    border-radius: 35px;
+    position:absolute;
+    top:17%;
+    left:200px;
+    background-color:red;
+    color:white;
+    font-weight: bolder;
+    font-size:25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
